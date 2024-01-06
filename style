@@ -1,71 +1,80 @@
+div {
+  margin: auto;
+  width: 90%;
+}
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+div a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 25px 37.5px;
+  margin-left: -5px;
+  margin-right: -5px;
+  background-color: #293241;
+  color: #E0FBFC;
+  transition: background-color 0.3s;;
+}
+
+a:hover { 
+  background-color: #FA824C;
 }
 
 body {
-  background-color: #f0f0f0;
-  color: #333;
+  font-family: Bahnschrift Light, Bahnschrift Light;
+  text-align: center;
 }
 
 section {
-  background-color: #fff;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #EEEEEE;
+  opacity: 0.8;
+  margin-right: auto;
+  margin-left: auto;
+  width: 84%;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+  padding-bottom: 3%;
+  text-align: left;
 }
 
-/* Style the section headings */
+
 section h1 {
-  color: #333;
+  color: #222831;
   font-size: 24px;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 2%;
+  padding-top: 4%;
 }
 
 /* Style the subsection headings */
 section h2 {
-  color: #444;
+  color: #222831;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 4%;
+  text-align: left;
 }
+
 
 /* Style the paragraph text */
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin: 10px 0;
+  text-align: justify;
+  color: #222831;
 }
 
-/* Style links */
-a {
-  color: #007BFF;
-  text-decoration: none;
+
+::-webkit-scrollbar {
+  width: 10px;
+  color: #342E37;
 }
 
-a:hover {
-  text-decoration: underline;
+::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 20px;
+  border: 6px;
+  background-clip: content-box;
 }
 
-/* Style the buttons */
-div {
-  text-align: center;
-  margin-top: 20px;
-}
-
-div a {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #007BFF;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-div a:hover {
-  background-color: #0056b3;
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkgrey;
 }
