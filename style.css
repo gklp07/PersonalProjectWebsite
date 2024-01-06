@@ -1,0 +1,81 @@
+div {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+div a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 25px 29.7px;
+  margin-left: -5px;
+  margin-right: -5px;
+  background-color: #293241;
+  color: #E0FBFC;
+  transition: background-color 0.3s;;
+}
+
+a:hover { 
+  background-color: #FA824C;
+}
+
+body {
+  font-family: Bahnschrift Light, Bahnschrift Light;
+
+}
+
+section {
+  background-color: #EEEEEE;
+  opacity: 0.8;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -10px;
+  width: 84%;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+  padding-bottom: 50px;
+}
+
+
+section h1 {
+  color: #222831;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+/* Style the subsection headings */
+section h2 {
+  color: #222831;
+  font-size: 18px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+/* Style the paragraph text */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #222831;
+  margin-right: 80px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  color: #342E37;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 20px;
+  border: 6px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkgrey;
+}
