@@ -19,6 +19,37 @@ a:hover {
   background-color: #FA824C;
 }
 
+#menu p{
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#menu h4{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#menu{
+  background-color: #EEEEEE;
+  opacity: 0.8;
+  margin-right: auto;
+  margin-left: auto;
+  width: 84%;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+  padding-bottom: 3%;
+  text-align: center;
+}
+#menu h1{
+  padding-top: 3%;
+}
+
+iframe{
+  padding-top: 5%;
+}
+
 body {
   font-family: Bahnschrift Light, Bahnschrift Light;
   text-align: center;
@@ -49,6 +80,13 @@ section h1 {
 section h2 {
   color: #222831;
   font-size: 18px;
+  margin-top: 4%;
+  text-align: left;
+}
+
+section h3 {
+  color: #222831;
+  font-size: 15px;
   margin-top: 4%;
   text-align: left;
 }
