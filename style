@@ -33,6 +33,7 @@ a:hover {
 
 #menu{
   background-color: rgba(238, 238, 238, 0.7);
+  opacity: 0.86;
   margin-right: auto;
   margin-left: auto;
   width: 84%;
@@ -40,6 +41,8 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 4);
   padding-bottom: 3%;
   text-align: center;
+  padding-top: 2%;
+  margin-top: 1%;
 }
 #menu h1{
   padding-top: 3%;
