@@ -7,7 +7,7 @@ div a {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  padding: 25px 37.5px;
+  padding: 25px 15.8px;
   margin-left: -5px;
   margin-right: -5px;
   background-color: #293241;
@@ -32,8 +32,7 @@ a:hover {
 }
 
 #menu{
-  background-color: #EEEEEE;
-  opacity: 0.8;
+  background-color: rgba(238, 238, 238, 0.7);
   margin-right: auto;
   margin-left: auto;
   width: 84%;
@@ -46,25 +45,22 @@ a:hover {
   padding-top: 3%;
 }
 
-iframe{
-  padding-top: 5%;
-}
-
 body {
   font-family: Bahnschrift Light, Bahnschrift Light;
   text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section {
-  background-color: #EEEEEE;
-  opacity: 0.8;
+  background-color: rgba(238, 238, 238, 0.7);
   margin-right: auto;
   margin-left: auto;
   width: 84%;
   border-radius: 0px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
   padding-bottom: 3%;
   text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
@@ -98,6 +94,13 @@ p {
   line-height: 1.5;
   text-align: justify;
   color: #222831;
+}
+
+img {
+  height: 18%;
+  width: 18%;
+  margin-top: -3%;
+  margin-bottom: -3%;
 }
 
 
